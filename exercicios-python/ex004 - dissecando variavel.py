@@ -1,0 +1,8 @@
+print('==== DESAFIO 004 ===== ')
+algo = input('Digite algo: ')
+print('Contem somente numeros? {}'.format(algo.isnumeric()))
+print('Contem somente letras? {}'.format(algo.isalpha()))
+print('Contem letras ou numeros? {}'.format(algo.isalnum()))
+print('Está em letras minúsculas? {}'.format(algo.islower()))
+print('Está em letras Maiúsculas? {}'.format(algo.isupper()))
+print('Está capitalizada? {}'.format(algo.istitle()))

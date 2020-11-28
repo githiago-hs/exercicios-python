@@ -1,0 +1,5 @@
+print('{:=^21}'.format('Desafio 026'))
+frase = str(input('Digite uma frase: ')).upper().strip()
+print('A letra "A" aparece {} vezes na frase'.format(frase.count('A')))
+print('A letra "A" aparece primeiro na {}ª posição'.format(frase.find('A') + 1))
+print('A ultima letra "A" aparece na {}ª posição'.format(frase.rfind('A') + 1))

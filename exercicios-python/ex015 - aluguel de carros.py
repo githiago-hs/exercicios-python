@@ -1,0 +1,5 @@
+print('{:=^20}'.format('Desafio 015'))
+km = float(input('Quantos kilometros foram percorridos: '))
+dias = int(input('Quantos dias ficou com o carro? '))
+calculo = (dias * 60) + (km * 0.15)
+print('Total a pagar R${:.2f}'.format(calculo))
